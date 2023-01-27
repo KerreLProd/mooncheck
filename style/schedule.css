@@ -1,0 +1,96 @@
+html {
+    background: #42275a;
+    /* fallback for old browsers */
+    font-family: MontserratLight;
+}
+
+@font-face {
+    font-family: "MontserratExtraLight";
+    src: url("../fonts/Montserrat-ExtraLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MontserratLight";
+    src: url("../fonts/Montserrat-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+table {
+    color: white;
+    font-size: 21px;
+    padding: 10px;
+    /* width: a; */
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    display: block;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+td {
+    /* border: 1px solid; */
+    border-radius: 5px;
+    border-width: 1px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.chopoparamebaniyrot {
+    text-align: center;
+    font-size: 90px;
+}
+
+.swiper-container {
+    height: 100vh;
+    /* padding-left:calc(50vw - 150px); */
+}
+
+.swiper-slide {
+    text-align: center;
+    border-radius: 25px;
+    margin: auto;
+    background-color: white;
+    background-image: none;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 1);
+    width: 512px;
+    height: auto;
+    opacity: 1;
+    /*transition: 1s opacity;*/
+}
+
+.swiper-slide-prev {
+    opacity: 1;
+}
+
+.swiper-slide-active,
+.swiper-slide-next {
+    opacity: 1;
+}
+
+/* texts */
+
+.lessonIndex {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.lessonName {
+    color: rgba(0, 0, 0, 1);
+    font-size: 40px;
+    margin-top: -5%;
+}
+
+.lessonAlerts {
+    margin-top: -5%;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.lessonInfo {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 24px;
+}

@@ -1,0 +1,151 @@
+html {
+    height: 100%;
+    font-family: MontserratLight;
+}
+
+body {
+    background-color: white;
+    font-family: MontserratLight;
+    background-color: #aa8bff;
+    background-image: linear-gradient(140deg, #bd8bff 0%, #856aff 55%, #df99ff 100%);
+    color: white;
+    height: 90%;
+}
+
+.uploadFileButton .btn-tertiary {
+    line-height: 40px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 300px;
+    height: 5%;
+    border-radius: 5px;
+    border-style: solid;
+    font-size: 18px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    border-width: 2px;
+    transition: .2s ease-in;
+}
+
+.uploadFileButton .btn-tertiary:hover,
+.uploadFileButton .btn-tertiary:focus {
+    border-color: transparent;
+    background-color: white;
+    color: black;
+}
+
+.uploadFileButton .btn-tertiary:hover,
+.uploadFileButton .btn-tertiary:focus {
+    color: rgb(0, 0, 0);
+    border-color: transparent
+}
+
+.uploadFileButton .input-file {
+    width: .1px;
+    height: .1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1
+}
+
+.uploadFileButton .input-file+.js-labelFile {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 10px;
+    cursor: pointer
+}
+
+
+.card {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    width: 600px;
+
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.errorsList {
+    text-align: left;
+}
+
+/* input {} */
+
+.mlerror {
+    margin-top: 10px;
+    padding: 1px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.mlerror h3 {
+    text-align: center;
+}
+
+.mlerror h4 {
+    text-align: center;
+    margin-left: 5px;
+    margin-top: -15px;
+    /* font-size: 15px; */
+}
+
+.mlerror h5 {
+    font-size: 14px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 5px;
+    margin-top: -15px;
+}
+
+.mlerror h7 {
+    text-align: center;
+}
+
+.msgbox {
+    margin: auto;
+    width: 100%;
+    border-radius: 5px;
+    height: 77%;
+    resize: none;
+    background-color: rgba(0, 0, 05, 0.3);
+    border-style: none;
+    color: white;
+}
+
+.msgbox::placeholder {
+    color: red;
+}
+
+button {
+    font-family: MontserratLight;
+    margin: auto;
+    margin-top: 10px;
+    width: 100%;
+    height: 5%;
+    border-radius: 5px;
+    border-style: solid;
+    /* font-size: 18px; */
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    border-width: 2px;
+    transition: .2s ease-in;
+}
+
+button:hover {
+    border-color: transparent;
+    background-color: white;
+    color: black
+}
+
+@font-face {
+    font-family: "MontserratLight";
+    src: url("../fonts/Montserrat-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

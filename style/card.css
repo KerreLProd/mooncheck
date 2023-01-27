@@ -1,0 +1,42 @@
+.bg {
+    position: absolute;
+    width: 713px;
+    height: 631px;
+
+    background: #000000;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.top {
+    position: absolute;
+    width: 713px;
+    height: 189px;
+
+    background: #FF0000;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.textName {
+    position: absolute;
+    width: 266px;
+    height: 58px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.avatar {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+
+    background: url("https: //www.blast.hk/data/avatars/o/432/432349.jpg?1673978863");
+    border-radius: 120.5px;
+}

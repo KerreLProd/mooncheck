@@ -1,0 +1,60 @@
+body {
+    font-family: MontserratLight;
+    background-color: #aa8bff;
+    background-image: linear-gradient(140deg, #bd8bff 0%, #856aff 55%, #df99ff 100%);
+    color: white;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    width: 512px;
+    height: 512px;
+    border-radius: 5px;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+}
+
+.msgbox {
+    margin: auto;
+    width: 100%;
+    border-radius: 5px;
+    height: 77%;
+    resize: none;
+    background-color: rgba(0, 0, 05, 0.3);
+    border-style: none;
+    color: white;
+}
+
+.msgbox::placeholder {
+    color: red;
+}
+
+button {
+    margin: auto;
+    margin-top: 10px;
+    width: 100%;
+    height: 5%;
+    border-radius: 5px;
+    border-style: solid;
+    font-size: 18px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    border-width: 2px;
+    transition: .2s ease-in;
+}
+
+button:hover {
+    border-color: transparent;
+    background-color: white;
+    color: black
+}
+
+@font-face {
+    font-family: "MontserratLight";
+    src: url("../fonts/Montserrat-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

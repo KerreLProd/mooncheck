@@ -1,0 +1,8 @@
+{
+    "dependencies": {
+        "express": "^4.18.2",
+        "samp-query": "^0.1.5",
+        "swiper": "^8.4.5"
+    },
+    "type": "module"
+}

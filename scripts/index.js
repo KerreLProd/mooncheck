@@ -1,8 +1,8 @@
 const buttons = [
     {short: 'tg', text: 'TELEGRAM', url: 'https://t.me/sanyabond008'},
-    {short: 'tg_group', text: '√–”œœ¿ ¬ TG', url: 'https://t.me/+JSv387j2viZkMjZi'},
-    {short: 'bh', text: 'œ–Œ‘»À‹ Õ¿ BLASTHACK', url: 'https://www.blast.hk/members/432349/'},
-    {short: 'mlog', text: '◊≈ ≈– Œÿ»¡Œ  MOONLOADER', url: 'https://kerrelprod.github.io/mooncheck/mooncheck.html'},
+    {short: 'tg_group', text: '–ì–†–£–ü–ü–ê –í TG', url: 'https://t.me/+JSv387j2viZkMjZi'},
+    {short: 'bh', text: '–ü–†–û–§–ò–õ–¨ –ù–ê BLASTHACK', url: 'https://www.blast.hk/members/432349/'},
+    {short: 'mlog', text: '–ß–ï–ö–ï–† –û–®–ò–ë–û–ö MOONLOADER', url: 'https://kerrelprod.github.io/mooncheck/mooncheck.html'},
 ]
 
 function openUrl(url) {
